@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Favicon -->
+    <link rel="icon" href="images\logo-pink.jpg" type="image">
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.15/css/uikit.min.css" />
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed|Roboto:100" rel="stylesheet">    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+   
+    <title>Jennifer | Web Designs</title>
+            
+</head>
+<body>
+<div class="uk-child-width-1-1@m" uk-grid>
+<div>
+<!-- Navigation -->
+<div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+    <nav class="uk-navbar-container" uk-navbar>
+    <div class="uk-navbar-center">
+        <div class="uk-navbar-center-left"><div>
+            <ul class="uk-navbar-nav">
+                <li class="uk-active">
+                    <a href="#bio"uk-scroll>About</a>
+                    <div uk-dropdown="animation: uk-animation-slide-top-small; duration: 800; delay-hide: 0;">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li><a href="#bio"uk-scroll><span class="uk-margin-small-right" uk-icon="info"></span>Bio</a></li>
+                            <li><a href="#contact"uk-scroll>Connect</a></li>
+                            <li><a href="#bio"uk-scroll>Resume</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+    </div></div>
+        <a class="uk-navbar-item uk-logo" href="#home"uk-scroll> <img src="images/logo-pink-floral.jpg" width= "50px" height="50px"></a>
+        <div class="uk-navbar-center-right"><div>
+            <ul class="uk-navbar-nav">
+                <li><a href="#portfolio"uk-scroll>Portfolio</a></li>
+            </ul>
+        </div></div>
+    </nav>
+</div>
+
+<!-- Intro -->
+<div class="uk-child-width-1-1@m" uk-grid>
+<div>
+<div class="uk-position-relative uk-visible-toggle uk-light" uk-slideshow="ratio: 7:3; animation: pull finite: true; autoplay: true; pause-on-hover">
+
+    <ul class="uk-slideshow-items">
+        <li>
+            <img src="images/collage-eye.jpg" alt="" uk-cover>
+        </li>
+        <li>
+            <img src="images/light-diamond.jpg" alt="" uk-cover>
+        </li>
+        <li>
+            <img src="images/pink-balloons.jpg" alt="" uk-cover>
+        </li>
+    </ul>
+
+        <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+    <div class="uk-position-bottom-center uk-position-small">
+        <ul class="uk-dotnav">
+            <li uk-slideshow-item="0"><a href="#"></a></li>
+            <li uk-slideshow-item="1"><a href="#"></a></li>
+            <li uk-slideshow-item="2"><a href="#"></a></li>
+        </ul>
+    </div>
+
+</div>
+</div>
+<h1 class="uk-heading-divider"></h1>
+
+<div class="uk-section uk-background-muted">
+<!-- Bio Section -->
+    <div id="bio">
+<!-- Heading Divider -->
+    <h1 class="uk-heading-divider uk-invisible"></h1>
+<!-- Heading Divider -->
+    <h1 class="uk-heading-divider uk-invisible"></h1>
+<!-- Heading Divider -->
+    <h1 class="uk-heading-divider uk-invisible"></h1>
+    <div class="uk-margin uk-margin-left uk-margin-right">
+    <div class="uk-height-large uk-background-cover uk-overflow-hidden uk-light uk-flex uk-flex-top" uk-scrollspy-nav style="background-image: url('images/yellow-pink-background.jpg');">
+        <div class="uk-panel">
+            <img class="uk-align-left uk-margin-remove-adjacent" src="images/logo-images.jpg" width="225" height="150" alt="Example image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+    </div>
+    </div>  
+</div>
+</div>
+
+
+<!-- Portfolio -->
+<div id="portfolio"></div>
+<!-- Heading Divider -->
+<h1 class="uk-heading-divider"></h1>
+<div class="uk-margin-right uk-margin-left">
+
+
+<div uk-filter="target: .js-filter" uk-scrollspy-nav>
+
+        <ul class="uk-subnav uk-subnav-divider ">
+            <li class="uk-active" uk-filter-control><a href="#">All</a></li>
+            <li uk-filter-control="[data-color='white']"><a href="#">Themes</a></li>
+            <li uk-filter-control="[data-color='blue']"><a href="#">Apps</a></li>
+            <li uk-filter-control="[data-color='black']"><a href="#">Logos</a></li>
+        </ul>
+        
+        <ul class="js-filter uk-child-width-1-2 uk-child-width-1-4@m uk-text-center" uk-grid>
+            
+            <li data-color="white">
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <img src="images/intro1.jpg" alt="">
+                        <img class="uk-transition-scale-up uk-position-cover" src="images/intro2.jpg" alt="">
+                    </div>
+                    <div uk-lightbox>
+                        <div class="uk-button-group uk-width-1-1">
+                            <a class="uk-button uk-button-secondary uk-width-1-1" href="images/pink.jpg" data-caption="Caption"> Preview</a>
+                            <button class="uk-button uk-button-secondary" type="button"><span uk-icon="icon: triangle-down"></span></button>
+                            <div uk-dropdown="mode: click; boundary: ! .uk-button-group; boundary-align: true; pos: bottom-right;">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="#"><span uk-icon="icon: world; ratio: .85"></span> Website </a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="#"><span uk-icon="icon: code; ratio: .85"></span> Code</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </li>
+
+            <li data-color="blue">
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <img src="images/movie2.jpg" alt="">
+                        <img class="uk-transition-scale-up uk-position-cover" src="images/intro2.jpg" alt="">
+                    </div>   
+                    <div uk-lightbox>
+                        <div class="uk-button-group uk-width-1-1;">
+                            <a class="uk-button uk-button-secondary uk-width-1-1;" href="images/photo.jpg" data-caption="Caption">Preview</a>
+                            <button class="uk-button uk-button-secondary" type="button"><span uk-icon="icon:  triangle-down"></span></button>
+                            <div uk-dropdown="mode: click; boundary: ! .uk-button-group; boundary-align: true; pos: bottom-right">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="#"> <span uk-icon="icon: world; ratio: .85"></span> Website</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="#"><span uk-icon="icon: code; ratio: .85"></span> Code</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li data-color="white">
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <img src="images/intro1.jpg" alt="">
+                        <img class="uk-transition-scale-up uk-position-cover" src="images/intro2.jpg" alt="">
+                    </div>   
+                    <div uk-lightbox>
+                        <div class="uk-button-group uk-width-1-1">
+                            <a class="uk-button uk-button-secondary uk-width-1-1" href="images/photo.jpg" data-caption="Caption">Preview</a>
+                            <button class="uk-button uk-button-secondary" type="button"><span uk-icon="icon:  triangle-down"></span></button>
+                            <div uk-dropdown="mode: click; boundary: ! .uk-button-group; boundary-align: true; pos: bottom-right">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="#"> <span uk-icon="icon: world; ratio: .85"></span> Website</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="#"><span uk-icon="icon: code; ratio: .85"></span> Code</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li data-color="white">
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <img src="images/intro1.jpg" alt="">
+                        <img class="uk-transition-scale-up uk-position-cover" src="images/intro2.jpg" alt="">
+                    </div>   
+                    <div uk-lightbox>
+                        <div class="uk-button-group uk-width-1-1">
+                            <a class="uk-button uk-button-secondary uk-width-1-1" href="images/photo.jpg" data-caption="Caption">Preview</a>
+                            <button class="uk-button uk-button-secondary" type="button"><span uk-icon="icon:  triangle-down"></span></button>
+                            <div uk-dropdown="mode: click; boundary: ! .uk-button-group; boundary-align: true; pos: bottom-right">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="#"> <span uk-icon="icon: world; ratio: .85"></span> Website</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="#"><span uk-icon="icon: code; ratio: .85"></span> Code</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li data-color="black">
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <img src="images/intro1.jpg" alt="">
+                        <img class="uk-transition-scale-up uk-position-cover" src="images/intro2.jpg" alt="">
+                    </div>  
+                    <div uk-lightbox>
+                        <div class="uk-button-group uk-width-1-1">
+                            <a class="uk-button uk-button-secondary uk-width-1-1" href="images/photo.jpg" data-caption="Caption">Preview</a>
+                            <button class="uk-button uk-button-secondary" type="button"><span uk-icon="icon:  triangle-down"></span></button>
+                            <div uk-dropdown="mode: click; boundary: ! .uk-button-group; boundary-align: true; pos: bottom-right">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="#"> <span uk-icon="icon: world; ratio: .85"></span> Website</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="#"><span uk-icon="icon: code; ratio: .85"></span> Code</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </li>
+
+            <li data-color="black">
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <img src="images/intro1.jpg" alt="">
+                        <img class="uk-transition-scale-up uk-position-cover" src="images/intro2.jpg" alt="">
+                    </div>  
+                    <div uk-lightbox>
+                        <div class="uk-button-group uk-width-1-1">
+                            <a class="uk-button uk-button-secondary uk-width-1-1" href="images/photo.jpg" data-caption="Caption">Preview</a>
+                            <button class="uk-button uk-button-secondary" type="button"><span uk-icon="icon:  triangle-down"></span></button>
+                            <div uk-dropdown="mode: click; boundary: ! .uk-button-group; boundary-align: true; pos: bottom-right">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="#"> <span uk-icon="icon: world; ratio: .85"></span> Website</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="#"><span uk-icon="icon: code; ratio: .85"></span> Code</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </li>
+
+            <li data-color="blue">
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <img src="images/TreasureCollector.jpg" alt="">
+                        <img class="uk-transition-scale-up uk-position-cover" src="images/text1.jpg" alt="">
+                    </div>   
+                    <div uk-lightbox>
+                        <div class="uk-button-group uk-width-1-1">
+                            <a class="uk-button uk-button-secondary uk-width-1-1">Preview
+                            </a>
+                            <button class="uk-button uk-button-secondary" type="button"><span uk-icon="icon:  triangle-down"></span></button>
+                            <div uk-dropdown="mode: click; boundary: ! .uk-button-group; boundary-align: true; pos: bottom-right">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="#"> <span uk-icon="icon: world; ratio: .85"></span> Website</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="#"><span uk-icon="icon: code; ratio: .85"></span> Code</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li data-color="black">
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <img src="images/intro1.jpg" alt="">
+                        <img class="uk-transition-scale-up uk-position-cover" src="images/intro2.jpg" alt="">
+                    </div>  
+                    <div uk-lightbox>
+                        <div class="uk-button-group uk-width-1-1">
+                            <a class="uk-button uk-button-secondary uk-width-1-1" href="images/photo.jpg" data-caption="Caption">Preview</a>
+                            <button class="uk-button uk-button-secondary" type="button"><span uk-icon="icon:  triangle-down"></span></button>
+                            <div uk-dropdown="mode: click; boundary: ! .uk-button-group; boundary-align: true; pos: bottom-right">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="#"> <span uk-icon="icon: world; ratio: .85"></span> Website</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="#"><span uk-icon="icon: code; ratio: .85"></span> Code</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </li>
+
+            <li data-color="blue">
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <img src="images/intro1.jpg" alt="">
+                        <img class="uk-transition-scale-up uk-position-cover" src="images/intro2.jpg" alt="">
+                    </div>   
+                    <div uk-lightbox>
+                        <div class="uk-button-group uk-width-1-1">
+                            <a class="uk-button uk-button-secondary uk-width-1-1" href="images/photo.jpg" data-caption="Caption">Preview</a>
+                            <button class="uk-button uk-button-secondary" type="button"><span uk-icon="icon:  triangle-down"></span></button>
+                            <div uk-dropdown="mode: click; boundary: ! .uk-button-group; boundary-align: true; pos: bottom-right">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="#"> <span uk-icon="icon: world; ratio: .85"></span> Website</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="#"><span uk-icon="icon: code; ratio: .85"></span> Code</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li data-color="white">
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <img src="images/intro1.jpg" alt="">
+                        <img class="uk-transition-scale-up uk-position-cover" src="images/intro2.jpg" alt="">
+                    </div>  
+                    <div uk-lightbox>
+                        <div class="uk-button-group uk-width-1-1">
+                            <a class="uk-button uk-button-secondary uk-width-1-1" href="images/photo.jpg" data-caption="Caption">Preview</a>
+                            <button class="uk-button uk-button-secondary" type="button"><span uk-icon="icon:  triangle-down"></span></button>
+                            <div uk-dropdown="mode: click; boundary: ! .uk-button-group; boundary-align: true; pos: bottom-right">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="#"> <span uk-icon="icon: world; ratio: .85"></span> Website</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="#"><span uk-icon="icon: code; ratio: .85"></span> Code</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </li>
+
+            <li data-color="blue">
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <img src="images/intro1.jpg" alt="">
+                        <img class="uk-transition-scale-up uk-position-cover" src="images/intro2.jpg" alt="">
+                    </div>   
+                    <div uk-lightbox>
+                        <div class="uk-button-group uk-width-1-1">
+                            <a class="uk-button uk-button-secondary uk-width-1-1" href="images/photo.jpg" data-caption="Caption">Preview</a>
+                            <button class="uk-button uk-button-secondary" type="button"><span uk-icon="icon:  triangle-down"></span></button>
+                            <div uk-dropdown="mode: click; boundary: ! .uk-button-group; boundary-align: true; pos: bottom-right">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="#"> <span uk-icon="icon: world; ratio: .85"></span> Website</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="#"><span uk-icon="icon: code; ratio: .85"></span> Code</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+
+            <li data-color="black">
+                <div class="uk-text-center">
+                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                        <img src="images/intro1.jpg" alt="">
+                        <img class="uk-transition-scale-up uk-position-cover" src="images/intro2.jpg" alt="">
+                    </div>  
+                    <div uk-lightbox>
+                        <div class="uk-button-group uk-width-1-1">
+                            <a class="uk-button uk-button-secondary uk-width-1-1" href="images/photo.jpg" data-caption="Caption">Preview</a>
+                            <button class="uk-button uk-button-secondary" type="button"><span uk-icon="icon:  triangle-down"></span></button>
+                            <div uk-dropdown="mode: click; boundary: ! .uk-button-group; boundary-align: true; pos: bottom-right">
+                                <ul class="uk-nav uk-dropdown-nav">
+                                    <li><a href="#"> <span uk-icon="icon: world; ratio: .85"></span> Website</a></li>
+                                    <li class="uk-nav-divider"></li>
+                                    <li><a href="#"><span uk-icon="icon: code; ratio: .85"></span> Code</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+                </div>
+            </li>
+
+        </ul>
+    
+    </div>
+</div>
+
+<!-- Heading Divider -->
+<h1 class="uk-heading-divider"></h1>
+
+<div class="uk-section uk-background-secondary">
+<!-- Social Media -->
+<div class="uk-grid-divider uk-child-width-expand@s" uk-grid>
+        <div id="contact">
+        <div>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+        <div>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</div>
+    </div>
+    
+    <div class="uk-inline">
+            <a href="https://github.com/reillj" class="uk-icon-button uk-margin-small-right" uk-icon="github"></a>
+            <a href="https://www.linkedin.com/in/jennifer-reilly-b94970172" class="uk-icon-button uk-margin-small-right" uk-icon="linkedin"></a>
+            <a href="https://wordpress.com/stats/day/jenniferreillycom.wordpress.com" class="uk-icon-button uk-margin-small-right" uk-icon="wordpress"></a>
+            <a href="" class="uk-icon-button uk-margin-small-right" uk-icon="mail"></a>
+    </div>
+    <div>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.     
+    </div>
+</div>
+
+</div>
+ <!-- Scroll to Top Button -->
+ <div class="uk-background-secondary">
+        <button class="uk-button uk-button-secondary uk-width-1-1"> <a href="#" uk-totop uk-scroll></a></button>
+ </div>
+
+</div>
+</div>
+
+
+
+<!-- Javascript -->
+<link rel="javascript" href="javascript/script.js">
+
+<!-- UIkit JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.15/js/uikit.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-rc.15/js/uikit-icons.min.js"></script>
+
+</body>
+</html>
